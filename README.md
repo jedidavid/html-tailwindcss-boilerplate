@@ -16,10 +16,17 @@
 yarn or npm install
 ```
 
+> to use hot reloading install live-server
+
+```shell
+npm install -g live-server
+```
+
 > starting dev server
 
 ```shell
 yarn start or npm start
+live-server --no-css-inject src
 ```
 
 > build (this purge the unused css and minify the css file)

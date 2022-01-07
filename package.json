@@ -6,14 +6,14 @@
   "license": "MIT",
   "scripts": {
     "build": "cross-env NODE_ENV=production postcss tailwind.css -o src/assets/css/style.css",
-    "start": "postcss tailwind.css -o src/assets/css/style.css && live-server src"
+    "start": "postcss tailwind.css -o src/assets/css/style.css --watch"
   },
   "devDependencies": {
-    "autoprefixer": "^9.7.6",
-    "cross-env": "^7.0.2",
-    "cssnano": "^4.1.10",
-    "live-server": "^1.2.1",
-    "postcss-cli": "^7.1.1",
-    "tailwindcss": "^1.7.2"
+    "autoprefixer": "^10.4.1",
+    "cross-env": "^7.0.3",
+    "cssnano": "^5.0.14",
+    "postcss": "^8.4.5",
+    "postcss-cli": "^9.1.0",
+    "tailwindcss": "^3.0.11"
   }
 }
