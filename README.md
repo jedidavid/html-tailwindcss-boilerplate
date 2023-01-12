@@ -26,7 +26,7 @@ npm install -g live-server
 
 ```shell
 yarn start or npm run start
-live-server
+live-server src/
 ```
 
 > build (this purge the unused css and minify the css file)
