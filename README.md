@@ -16,7 +16,7 @@
 yarn or npm install
 ```
 
-> to use hot reloading install live-server
+> to use hot reloading install live server as global package or install live-server extension in vscode
 
 ```shell
 npm install -g live-server
@@ -25,14 +25,14 @@ npm install -g live-server
 > starting dev server
 
 ```shell
-yarn start or npm start
-live-server --no-css-inject src
+yarn start or npm run start
+live-server
 ```
 
 > build (this purge the unused css and minify the css file)
 
 ```shell
-yarn build or npm build
+yarn build or npm run build
 ```
 
 ## License
